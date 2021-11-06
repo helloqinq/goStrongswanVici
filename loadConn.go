@@ -55,6 +55,8 @@ type ChildSAConf struct {
 	MarkOut       string   `json:"mark_out,omitempty"`
 	DpdAction     string   `json:"dpd_action,omitempty"`
 	LifeTime      string   `json:"life_time,omitempty"`
+	IfIdIn        string   `json:"if_id_in,omitempty"`
+	IfIdOut       string   `json:"if_id_out,omitempty"`
 }
 
 // SetPublicKeys is a helper method that converts Public Keys to x509 PKIX PEM format
