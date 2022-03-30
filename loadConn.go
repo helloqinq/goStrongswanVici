@@ -36,6 +36,7 @@ type AuthConf struct {
 	AuthMethod string   `json:"auth"` // (psk|pubkey)
 	EAP_ID     string   `json:"eap_id,omitempty"`
 	PubKeys    []string `json:"pubkeys,omitempty"` // PEM encoded public keys
+	Certs      []string `json:"certs,omitempty"`   // PEM encoded public keys
 }
 
 type ChildSAConf struct {
